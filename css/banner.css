@@ -1,0 +1,71 @@
+.banner{
+    background-color: #1D3557;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	width: 100%;
+	display: block;
+	padding: 0px 10px 10px 5px;
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+	padding: 0px 0px 0px 0px;
+	vertical-align: top;
+	float: left;
+}
+
+.title{
+	letter-spacing: 5px;
+	position: relative;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.subtitle {
+	font-weight: bold;
+	color: gray;
+	position: relative;
+	font-size: 15px;
+}
+
+.nav ul {
+	border-collapse: collapse;
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+
+.nav a {
+	color: white;
+	display: block;
+	padding: 4px 20px 5px 20px;
+
+}
+
+.nav{
+	float: right;
+}
+
+.nav a:hover, .current a{
+	border-top: 2px solid white;
+	padding-top: 2px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+a {
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+
+header a{
+		letter-spacing: 5px;
+}
+
