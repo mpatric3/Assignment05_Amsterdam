@@ -16,7 +16,7 @@ Information Architect: Meghan Patrick
 		The primary goal of this website is to fill-out the survey. This is why it is important that the survey is located at the bottom right of the homepage.
 
 
-Intended layout: Header with logo and title on the left, and navigation on the right. Content with a central title, and secondary titles for content. Survey at the bottom of the home page.
+Intended layout: Header with logo and title on the left, and navigation on the right. Content with a central title, and secondary titles for content. Survey should be at the bottom right of the home page since it is the primary goal.
 
 Intented mood/feeling: Bright and fun fruity colors (red, orange, yellow, green) that reflect the colors included in the photos. Whimsical fonts to reflect the mood of the content.
 
