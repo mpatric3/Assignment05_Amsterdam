@@ -7,14 +7,16 @@
 
 		<div class= "container" style="z-index: 1;">
 
+			<div>
+				<h2>Fruit: An Overview</h2>
 			<div class = "slider" style="z-index: -1;"> <!--slider of images of place where each person is from-->
 	        	<img src="images/fruitpic.jpg" alt="A Nice Fruit Arrangement.">
 				<img src="images/morefruit.jpg" alt="Even more fruit.">
 				<img src="images/seedlessfruit.jpg" alt="Seedless Fruit">
 			</div>
 
-			<div>
-				<h2>Fruits and Berries</h2>
+
+				<h3>Fruits and Berries</h3>
 				<p>In botany, a fruit is the seed-bearing structure in flowering plants (also known as angiosperms) formed from the ovary after flowering.
 				</p>
 
@@ -24,7 +26,7 @@
 				<p>In common language usage, "fruit" normally means the fleshy seed-associated structures of a plant that are sweet or sour, and edible in the raw state, such as apples, bananas, grapes, lemons, oranges, and strawberries. On the other hand, in botanical usage, "fruit" includes many structures that are not commonly called "fruits", such as bean pods, corn kernels, tomatoes, and wheat grains.[2][3] The section of a fungus that produces spores is also called a fruiting body.[4]
 				</p>
 
-				<h2>Culinary Fruit and Botanical Fruit</h2>
+				<h3>Culinary Fruit and Botanical Fruit</h3>
 				<p>
 				Many common terms for seeds and fruit do not correspond to the botanical classifications. In culinary terminology, a fruit is usually any sweet-tasting plant part, especially a botanical fruit; a nut is any hard, oily, and shelled plant product; and a vegetable is any savory or less sweet plant product.[5] However, in botany, a fruit is the ripened ovary or carpel that contains seeds, a nut is a type of fruit and not a seed, and a seed is a ripened ovule.[6]
 				</p>
@@ -34,6 +36,9 @@
 				<p>
 				Botanically, a cereal grain, such as corn, rice, or wheat, is also a kind of fruit, termed a caryopsis. However, the fruit wall is very thin and is fused to the seed coat, so almost all of the edible grain is actually a seed.[8]
 				</p>
+
+
+
 			</div>
 
 			<?php include "inc/footer.inc"; ?>
