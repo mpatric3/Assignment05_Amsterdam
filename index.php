@@ -7,13 +7,15 @@
 
 		<div class= "container" style="z-index: 1;">
 
-			<div>
-				<h2>Fruit: An Overview</h2>
 			<div class = "slider" style="z-index: -1;"> <!--slider of images of place where each person is from-->
 	        	<img src="images/fruitpic.jpg" alt="A Nice Fruit Arrangement.">
 				<img src="images/morefruit.jpg" alt="Even more fruit.">
 				<img src="images/seedlessfruit.jpg" alt="Seedless Fruit">
 			</div>
+			
+			<div>
+				<h2>Fruit: An Overview</h2>
+
 
 
 				<h3>Fruits and Berries</h3>
