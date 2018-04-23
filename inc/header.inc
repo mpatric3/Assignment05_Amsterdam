@@ -6,7 +6,7 @@
 	</a>
 		<div>	
 			<a href="index.php">
-				<h2 class="title">Fruit</h2>
+				<h2 class="title">Fruits</h2>
 			</a>
 			<div class="subtitle">CSC 174 - Advanced Web Design and Development</div>
 		</div>

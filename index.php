@@ -12,11 +12,9 @@
 				<img src="images/morefruit.jpg" alt="Even more fruit.">
 				<img src="images/seedlessfruit.jpg" alt="Seedless Fruit">
 			</div>
-			
+
 			<div>
 				<h2>Fruit: An Overview</h2>
-
-
 
 				<h3>Fruits and Berries</h3>
 				<p>In botany, a fruit is the seed-bearing structure in flowering plants (also known as angiosperms) formed from the ovary after flowering.
