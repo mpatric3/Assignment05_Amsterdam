@@ -23,17 +23,16 @@
 ?>
 
 <?php include "inc/html-top.inc";?>
-
 <body>
+	    <?php include "inc/header.inc"; ?>
+	    <?php include "inc/nav.inc"; ?>
 
     <div>
 		<h1>Thank you!</h1>
-		<p>Thank you for signing up, <?php echo $_POST["name"]; ?>!</p>
-		<p>We wish you all the best in your fruit endeavors</p>
-		<p>Please read more about fruit! </p>
-	    	<a href="index.php">
-	        	<img src="images/fruit.jpg" alt="Fruit pic">
-	        </a>
+		<p>Thank you for subscribing to the fruit of the month club. You will receive a confirmation email with 
+			further instructions at: <?php echo $_POST["email"]; ?></p>
+		<p>You may unsubscribe to this mailing list at anytime by clicking the link in the email.</p>
+		<p>Enjoy, and we hope you learned something about fruit! </p>
      </div>
 
 </body>

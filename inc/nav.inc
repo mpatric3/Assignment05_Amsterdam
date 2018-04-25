@@ -1,4 +1,4 @@
-			<nav class="nav">
+			<nav>
 			
 			<ul>
 				<li>

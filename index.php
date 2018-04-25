@@ -1,17 +1,11 @@
 <?php include "inc/html-top.inc";?>
 	<body>
-		<section class = "banner">
             <?php include "inc/header.inc"; ?>
             <?php include "inc/nav.inc"; ?>
-        </section> <!--.banner-->
 
 		<div class= "container" style="z-index: 1;">
 
-			<div class = "slider" style="z-index: -1;"> <!--slider of images of place where each person is from-->
-	        	<img src="images/fruitpic.jpg" alt="A Nice Fruit Arrangement.">
-				<img src="images/morefruit.jpg" alt="Even more fruit.">
-				<img src="images/seedlessfruit.jpg" alt="Seedless Fruit">
-			</div>
+			<img src="images/fruitpic.jpg" alt="A Nice Fruit Arrangement.">
 
 			<div>
 				<h2>Fruit: An Overview</h2>
@@ -37,98 +31,28 @@
 				Botanically, a cereal grain, such as corn, rice, or wheat, is also a kind of fruit, termed a caryopsis. However, the fruit wall is very thin and is fused to the seed coat, so almost all of the edible grain is actually a seed.[8]
 				</p>
 
-
-
 			</div>
 
- 
-		        <div class="container">  
-					<div class="table-responsive">  
-						<span id="result"></span>
-						<div id="live_data"></div>                 
-					</div>  
-				</div> 
-		<script>  
-		$(document).ready(function(){  
-		    function fetch_data()  
-		    {  
-		        $.ajax({  
-		            url:"select.php",  
-		            method:"POST",  
-		            success:function(data){  
-						$('#live_data').html(data);  
-		            }  
-		        });  
-		    }  
-		    fetch_data();  
-		    $(document).on('click', '#btn_add', function(){  
-		        var first_name = $('#first_name').text();  
-		        var last_name = $('#last_name').text();  
-		        if(first_name == '')  
-		        {  
-		            alert("Enter First Name");  
-		            return false;  
-		        }  
-		        if(last_name == '')  
-		        {  
-		            alert("Enter Last Name");  
-		            return false;  
-		        }  
-		        $.ajax({  
-		            url:"insert.php",  
-		            method:"POST",  
-		            data:{first_name:first_name, last_name:last_name},  
-		            dataType:"text",  
-		            success:function(data)  
-		            {  
-		                alert(data);  
-		                fetch_data();  
-		            }  
-		        })  
-		    });  
-		    
-			function edit_data(id, text, column_name)  
-		    {  
-		        $.ajax({  
-		            url:"edit.php",  
-		            method:"POST",  
-		            data:{id:id, text:text, column_name:column_name},  
-		            dataType:"text",  
-		            success:function(data){  
-		                //alert(data);
-						$('#result').html("<div class='alert alert-success'>"+data+"</div>");
-		            }  
-		        });  
-		    }  
-		    $(document).on('blur', '.first_name', function(){  
-		        var id = $(this).data("id1");  
-		        var first_name = $(this).text();  
-		        edit_data(id, first_name, "first_name");  
-		    });  
-		    $(document).on('blur', '.last_name', function(){  
-		        var id = $(this).data("id2");  
-		        var last_name = $(this).text();  
-		        edit_data(id,last_name, "last_name");  
-		    });  
-		    $(document).on('click', '.btn_delete', function(){  
-		        var id=$(this).data("id3");  
-		        if(confirm("Are you sure you want to delete this?"))  
-		        {  
-		            $.ajax({  
-		                url:"delete.php",  
-		                method:"POST",  
-		                data:{id:id},  
-		                dataType:"text",  
-		                success:function(data){  
-		                    alert(data);  
-		                    fetch_data();  
-		                }  
-		            });  
-		        }  
-		    });  
-		});  
-		</script>
 
+			<div class = "survey">
+                <h1>Sign Up for the Fruit of The Month Club:</h1>
+                    <form method = "post" action = "form.php">
+                        <div>
+                            <label for="email">Email: </label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <input type="submit" value="Sign Up Now">
+                    </form>
+            </div>
+
+
+		    <div>
+		        <h2>Login</h2>
+		        <p>If you are an admin, please fill in your credentials to login.</p>
+		        <form>
+		            <p> Don't have an account? <a href="register.php">Sign up now</a>.</p>
+		        </form>
+		    </div> 
 
 			<?php include "inc/footer.inc"; ?>
 

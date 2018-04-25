@@ -1,10 +1,8 @@
 <?php include "inc/html-top.inc";?>
     
     <body>
-        <section class = "banner">
             <?php include "inc/header.inc"; ?>
             <?php include "inc/nav.inc"; ?>
-        </section> <!--.banner-->
 
         <div class = "container">
         
