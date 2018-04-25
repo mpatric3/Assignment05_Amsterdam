@@ -35,7 +35,7 @@
 
 
 			<div class = "survey">
-                <h1>Sign Up for the Fruit of The Month Club:</h1>
+                <h1>What's Your Favorite Fruit</h1>
                     <form method = "post" action = "form.php">
                         <div>
                             <label for="email">Email: </label>
