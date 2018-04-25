@@ -8,19 +8,21 @@ Information Architect: Meghan Patrick
 		From this page, the user can navigate to the other two pages of the website, "uses.php" and "development.php"
 		using the navigation bar located in the banner at the top of the page. 
 
+		
 		The central goal of the website is to get website visitors to fill-out a survey that is related to the topic of fruit. 
-		For this reason, the HTML form for the survey is located at the bottom of the site, and justified to the right.
-		The form is related to the theme of the site by being an email sign up for the fruit of the month club.
+		For this reason, the HTML form for the survey is located at the bottom of the site, and justified to the right. This is 
+		the terminal area in a Z pattern layout, which the homepage is designed for.
+		The form is related to the theme of the site by being a survey question of "what fruit would you like to learn more about" so admin's can use this data to better design their site to appeal to the interests of their users.
 
 		Once the user fills out this survey, they are redirected to the page "thanks.php" which gives
 		a brief thank you message, and provides the navigation necessary to return to the three central pages of the website.
-
-		For the admin controls, a login form is located at the bottom of the home page, beneath the survey. It is not intended for typical
-		users, so it is intended to be small and subtle. 
+		
+		For the admin controls, a login form is located in the banner so it is present on every page. This location was chosen because
+		as an admin, you want to have access to the admin page at every point of navigation in the site.
 
 		If the user does not have an account (if they are not an admin) they can click a link to register, which redirects them to "register.php" where they can fill out a form and become an admin.
 		
-		Once logged in, they are redirected to welcome.php. The purpose of this page is to be able to view and edit (insert/delete)
+		Once logged in, they are redirected to "welcome.php". The purpose of this page is to be able to view and edit (insert/delete)
 		the survey responses of normal, non-admin users on the site.
 
 	Ontology of the site:

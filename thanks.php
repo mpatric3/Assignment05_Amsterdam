@@ -29,9 +29,8 @@
 
     <div>
 		<h1>Thank you!</h1>
-		<p>Thank you for subscribing to the fruit of the month club. You will receive a confirmation email with 
-			further instructions at: <?php echo $_POST["email"]; ?></p>
-		<p>You may unsubscribe to this mailing list at anytime by clicking the link in the email.</p>
+		<p>Thank you for answering our survey!></p>
+		<p>Your feedback helps us improve the site to cater to your interests!</p>
 		<p>Enjoy, and we hope you learned something about fruit! </p>
      </div>
 

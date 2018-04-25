@@ -35,13 +35,8 @@
 
 
 			<div class = "survey">
-                <h1>What's Your Favorite Fruit</h1>
-                    <form method = "post" action = "form.php">
-                        <div>
-                            <label for="email">Email: </label>
-                            <input type="text" name="email" id="email">
-                        </div>
-                        <input type="submit" value="Sign Up Now">
+                <h1>What fruit would you like to learn more about?</h1>
+                    <form method = "post" action = "thanks.php">
                     </form>
             </div>
 
