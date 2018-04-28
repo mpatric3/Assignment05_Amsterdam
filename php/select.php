@@ -4,8 +4,8 @@ require_once 'config.php';
  $sql = "SELECT * FROM fruit_survey ORDER BY id DESC";  
  $result = mysqli_query($link, $sql);  
  $output .= '  
-      <div class="table-responsive">  
-           <table class="table table-bordered">  
+      <div class="table-responsive">
+        <table class="table table-bordered">  
                 <tr>  
                      <th width="10%">Id</th>  
                      <th width="20%">First Name</th>  

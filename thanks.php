@@ -1,24 +1,15 @@
 <?php
-	// Create a database connection
-	$dbhost = "66.147.242.186";
-	$dbuser = "urcscon3_mpatric";
-	$dbpass = "coffee1N";
-	$dbname = "urcscon3_mpatric3";
-	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+	require_once 'php/config.php';
 
-	// Test connection
-	//if (!$connection) {
-	//	die("connection failed");
-	//}
-	//echo "success!";
-
-	$name = Trim(stripslashes($_POST['name']));
-	$email = Trim(stripslashes($_POST['email']));
+	$first_name = Trim(stripslashes($_POST['first_name']));
+	$last_name = Trim(stripslashes($_POST['last_name']));
+	$fav_fruit = Trim(stripslashes($_POST['fav_fruit']));
+	$fruit_use = Trim(stripslashes($_POST['fruit_use']));
 	
 	
 	// Perform database query
-	$query  = "INSERT INTO myTable (name, email) VALUES ('$name', '$email')";
-	$result = mysqli_query($connection, $query);
+	$query  = "INSERT INTO fruit_survey (first_name, last_name, fav_fruit, fruit_use) VALUES ('$first_name', '$last_name', '$fav_fruit', '$fruit_use')";
+	$result = mysqli_query($link, $query);
 
 ?>
 
@@ -29,7 +20,7 @@
 
     <div>
 		<h1>Thank you!</h1>
-		<p>Thank you for answering our survey!></p>
+		<p>Thank you for answering our survey!</p>
 		<p>Your feedback helps us improve the site to cater to your interests!</p>
 		<p>Enjoy, and we hope you learned something about fruit! </p>
      </div>
@@ -38,5 +29,5 @@
 </html>
 
 <?php
-	mysqli_close($connection);
+	mysqli_close($link);
 ?>

@@ -12,47 +12,26 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Admin Area</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
-         
+   <meta charset="UTF-8">
+   <title>Admin Area</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
 </head>
 <body>
-
-     <nav>
-            <ul>
-                <li>
-                    <a href="index.php">Home</a>
-                </li>
-                <li>
-                    <a href="development.php">Development of Fruit</a>
-                </li>
-                <li>
-                    <a href="uses.php">Uses for Fruit</a>
-                </li>
-            </ul>
-
-            </nav>
-     
-<h1>Welcome to the Admin Page!</h1>
-
-<p>Below you can view and edit the responses to the user survey<p>
-
-<div class="container">  
-            <div class="table-responsive">  
-                <h3>Fruit Survey Results</a></h3><br />
-                <span id="result"></span>
-                <div id="live_data"></div>                 
-            </div>  
-        </div>
-
-    <p><a href="logout.php">Sign Out of Your Account</a></p>
-
+   <h1>Welcome to the Admin Page!</h1>
+   <p>Below you can view and edit the responses to the user survey</p>
+   <div class="container">
+      <div class="table-responsive">
+         <h3>Fruit Survey Results</h3>
+         <span id="result"></span>
+         <div id="live_data"></div>
+      </div>
+   </div>
+   <p><a href="logout.php">Sign Out of Your Account</a></p>
 </body>
 </html>
-  
+
 <script>
     $(document).ready(function() {
         function fetch_data() {

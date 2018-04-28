@@ -23,9 +23,8 @@
 
 
 			<div class = "survey">
-                <h1>What fruit would you like to learn more about?</h1>
-                    <form method = "post" action = "thanks.php">
-                    </form>
+                <p><a href="survey.php">Take our survey!</a></p>
+
             </div>
 
 
