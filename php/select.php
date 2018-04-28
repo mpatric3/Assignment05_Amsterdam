@@ -10,8 +10,7 @@ require_once 'config.php';
                      <th width="10%">Id</th>  
                      <th width="20%">First Name</th>  
                      <th width="20%">Last Name</th>
-                     <th width="20%">Favorite Fruit</th>
-                     <th width="20%">Use for Fruit</th>  
+                     <th width="40%">Requested Fruit</th> 
                      <th width="10%">Delete</th>  
                 </tr>';  
  $rows = mysqli_num_rows($result);
@@ -24,8 +23,7 @@ require_once 'config.php';
                      <td>'.$row["id"].'</td>  
                      <td class="first_name" data-id1="'.$row["id"].'" contenteditable>'.$row["first_name"].'</td>  
                      <td class="last_name" data-id2="'.$row["id"].'" contenteditable>'.$row["last_name"].'</td>
-                     <td class="fav_fruit" data-id3="'.$row["id"].'" contenteditable>'.$row["fav_fruit"].'</td>
-                     <td class="fruit_use" data-id4="'.$row["id"].'" contenteditable>'.$row["fruit_use"].'</td>  
+                     <td class="new_fruit" data-id3="'.$row["id"].'" contenteditable>'.$row["new_fruit"].'</td>  
                      <td><button type="button" name="delete_btn" data-id5="'.$row["id"].'" class="btn btn-xs btn-danger btn_delete">x</button></td>  
                 </tr>  
            ';  
@@ -35,8 +33,7 @@ require_once 'config.php';
                 <td></td>  
                 <td id="first_name" contenteditable></td>  
                 <td id="last_name" contenteditable></td> 
-                <td id="fav_fruit" contenteditable></td> 
-                <td id="fruit_use" contenteditable></td>  
+                <td id="new_fruit" contenteditable></td> 
                 <td><button type="button" name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>  
            </tr>  
       ';  
@@ -48,8 +45,7 @@ require_once 'config.php';
 					<td></td>  
 					<td id="first_name" contenteditable></td>  
 					<td id="last_name" contenteditable></td>
-          <td id="fav_fruit" contenteditable></td>
-          <td id="fruit_use" contenteditable></td>  
+          <td id="new_fruit" contenteditable></td> 
 					<td><button type="button" name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>  
 			   </tr>';  
  }  

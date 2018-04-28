@@ -47,8 +47,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
         $(document).on('click', '#btn_add', function() {
             var first_name = $('#first_name').text();
             var last_name = $('#last_name').text();
-            var fav_fruit = $('#fav_fruit').text();
-            var fruit_use = $('#fruit_use').text();
+            var new_fruit = $('#new_fruit').text();
             if (first_name == '') {
                 alert("Enter First Name");
                 return false;
@@ -57,12 +56,8 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                 alert("Enter Last Name");
                 return false;
             }
-            if (fav_fruit == '') {
+            if (new_fruit == '') {
                 alert("Enter Favorite Fruit");
-                return false;
-            }
-            if (fruit_use == '') {
-                alert("Enter Fruit Use");
                 return false;
             }
             $.ajax({
@@ -71,8 +66,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                 data: {
                     first_name: first_name,
                     last_name: last_name,
-                    fav_fruit: fav_fruit,
-                    fruit_use: fruit_use
+                    new_fruit: new_fruit
                 },
                 dataType: "text",
                 success: function(data) {
@@ -108,15 +102,10 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
             var last_name = $(this).text();
             edit_data(id, last_name, "last_name");
         });
-        $(document).on('blur', '.fav_fruit', function() {
+        $(document).on('blur', '.new_fruit', function() {
             var id = $(this).data("id3");
-            var fav_fruit = $(this).text();
-            edit_data(id, fav_fruit, "fav_fruit");
-        });
-        $(document).on('blur', '.fruit_use', function() {
-            var id = $(this).data("id4");
-            var fruit_use = $(this).text();
-            edit_data(id, fruit_use, "fruit_use");
+            var new_fruit = $(this).text();
+            edit_data(id, new_fruit, "new_fruit");
         });
         $(document).on('click', '.btn_delete', function() {
             var id = $(this).data("id5");

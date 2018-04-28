@@ -14,13 +14,9 @@
       </div>
       <input type="text" name="last_name" required>
       <div>
-         <h2>What is your favorite fruit?</h2>
+         <h2>What fruit would you like to learn more about?</h2>
       </div>
-      <input type="text" name="fav_fruit" required>
-      <div>
-         <h2>How do you use that fruit?</h2>
-      </div>
-      <input type="text" name="fruit_use" required>
+      <input type="text" name="new_fruit" required> </br></br>
       <input type="submit" id="submitButton"
          name="submitClick" value="Submit">
       </form>

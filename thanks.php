@@ -3,12 +3,11 @@
 
 	$first_name = Trim(stripslashes($_POST['first_name']));
 	$last_name = Trim(stripslashes($_POST['last_name']));
-	$fav_fruit = Trim(stripslashes($_POST['fav_fruit']));
-	$fruit_use = Trim(stripslashes($_POST['fruit_use']));
+	$new_fruit = Trim(stripslashes($_POST['new_fruit']));
 	
 	
 	// Perform database query
-	$query  = "INSERT INTO fruit_survey (first_name, last_name, fav_fruit, fruit_use) VALUES ('$first_name', '$last_name', '$fav_fruit', '$fruit_use')";
+	$query  = "INSERT INTO fruit_survey (first_name, last_name, new_fruit) VALUES ('$first_name', '$last_name', '$new_fruit')";
 	$result = mysqli_query($link, $query);
 
 ?>
