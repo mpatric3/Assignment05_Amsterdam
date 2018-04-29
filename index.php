@@ -32,7 +32,7 @@
                name="submitClick" value="Submit">
          </form>
       </div>
-      <div>
+      <div class="login">
          <h2>Login</h2>
          <p>If you are an admin, please fill in your credentials to <a href="login.php">login.</a></p>
          <form>
