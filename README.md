@@ -35,3 +35,5 @@ Information Architect: Meghan Patrick
 		The content should be left justified, with a large central heading and smaller subheadings. The survey should be at the bottom right of the home page since it is the primary goal, and extenuated with color to draw the user's attention.
 
 		Content for the site was collected from Wikipedia, including images.
+
+Designer: Amber Williams

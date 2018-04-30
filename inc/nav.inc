@@ -1,5 +1,6 @@
-			<nav>
-			
+
+			<nav class="nav">
+			<link rel="stylesheet" href="css/navigation.css">
 			<ul>
 				<li>
 					<a href="index.php">Home</a>

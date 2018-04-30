@@ -1,0 +1,34 @@
+.nav ul {
+	border-collapse: collapse;
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.nav a {
+    color: #5F0F40;
+    display: block;
+	padding: 10px 20px 10px 20px;
+}
+
+.nav li {
+	display: table-cell;
+	font-size: 20pt;
+}
+
+.nav{
+    float: right;
+    padding-top:0px;
+}
+
+.nav a:hover {
+	padding-top: 10px;
+	color: #EAC435;
+}
+
+
+.nav a.is-current {
+	padding-top: 2px;
+	color: #EC4E20;
+	border-bottom: #EC4E20;
+}

@@ -1,11 +1,14 @@
 <?php include "inc/html-top.inc";?>
+	<article>
 	<body>
             <?php include "inc/header.inc"; ?>
             <?php include "inc/nav.inc"; ?>
 
 		<div class= "container" style="z-index: 1;">
 
-			<img src="images/fruitpic.jpg" alt="A Nice Fruit Arrangement.">
+		<div>
+			<img class="scale" src="images/fruitpic.jpg" alt="A Nice Fruit Arrangement.">
+		</div>
 
 			<div>
 				<h2>Fruit: An Overview</h2>
@@ -20,8 +23,10 @@
 				</p>
 
 			</div>
+			</article>
 
 
+			<aside>
 			<div class = "survey">
                 <h1>What fruit would you like to learn more about?</h1>
                     <form method = "post" action = "thanks.php">
@@ -29,13 +34,14 @@
             </div>
 
 
-		    <div>
+		    <div class = "login">
 		        <h2>Login</h2>
 		        <p>If you are an admin, please fill in your credentials to login.</p>
 		        <form>
 		            <p> Don't have an account? <a href="register.php">Sign up now</a>.</p>
 		        </form>
-		    </div> 
+		    </div>
+		</aside>
 
 			<?php include "inc/footer.inc"; ?>
 
