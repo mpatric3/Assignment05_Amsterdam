@@ -1,8 +1,8 @@
 <?php include "inc/html-top.inc";?>
 <body>
+<div class= "container">
 <?php include "inc/header.inc"; ?>
    <?php include "inc/nav.inc"; ?>
-   <div class= "container">
       <div>
          <img class="scale" src="images/fruitpic.jpg" alt="A Nice Fruit Arrangement.">
       </div>

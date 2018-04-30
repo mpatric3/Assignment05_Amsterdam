@@ -1,8 +1,8 @@
 <?php include "inc/html-top.inc";?>
 <body>
+<div class = "container">
    <?php include "inc/header.inc"; ?>
    <?php include "inc/nav.inc"; ?>
-   <div class = "container">
       <article>
          <h2>The Development of Fruit</h2>
          <figure>
