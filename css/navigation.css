@@ -7,7 +7,6 @@
 
 .nav a {
     color: #5F0F40;
-    display: block;
 	padding: 10px 20px 10px 20px;
 }
 
@@ -17,7 +16,9 @@
 }
 
 .nav{
+	display: grid;
     float: right;
+    margin-left: 300px;
     padding-top:0px;
 }
 
@@ -25,7 +26,6 @@
 	padding-top: 10px;
 	color: #EAC435;
 }
-
 
 .nav a.is-current {
 	padding-top: 2px;
