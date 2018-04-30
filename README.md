@@ -39,5 +39,7 @@ Content for the site was collected from Wikipedia, including images.
 
 ## Coder: Melanie DeJong
 
-There are no known errors at this point.
+### Known errors
+At one point, an empty row somehow made it into the fruit_survey table, which cased an error in the php. The error has not occurred again, but in theory it is possible that if there were an empty row in the table, the same error could occur again.
+
 
