@@ -38,8 +38,8 @@
             </form>
          </div>
          <div class = "login">
-            <h2>Login</h2>
-            <p>If you are an admin, please fill in your credentials to login.</p>
+            <h2><a href="login.php">Login</a></h2>
+            <p>If you are an admin, please fill in your credentials to <a href="login.php">login</a>.</p>
             <form>
                <p> Don't have an account? <a href="register.php">Sign up now</a>.</p>
             </form>
